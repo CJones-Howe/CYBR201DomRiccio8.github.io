@@ -1,5 +1,7 @@
-body {backgorund-color:linear-gradient(160deg, #6a0dad, #ffcc00);
-      height: 100vh;}
+body {
+      background: linear-gradient(160deg, #6a0dad, #ffcc00);
+      height: 100vh;
+}
         #p1,#p3,#p5,#p7 {color:#FDB927}
         #p2,#p4,#p6 {color:#552583}
         p{color:white}
