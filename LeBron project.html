@@ -8,17 +8,18 @@
         
 
         <p>Chose your LeBron!</p>
+        <!-- each  button on click will redirect to the corrosponding HTML page-->
+        <p><button onclick="redirectTo('ST.V ST.M.html')">ST.Vincint St.Marry</button>
+        <p><button onclick="redirectTo('OCC.html')">Old Cleveland Cavaliers</button>
+        <p><button onclick="redirectTo('MH.html')">Miami Heat</button>
+        <p><button onclick="redirectTo('CC.html')">Cleveland Cavaliers</button>
+        <p><button onclick="redirectTo('LAL.html')">Los Angeles Lakers</button>
 
-        <P><button onclick="redirectTo('ST.V ST.M.html')">ST.Vincint St.Marry</button>
-        <P><button onclick="redirectTo('OCC.html')">Old Cleveland Cavaliers</button>
-        <P><button onclick="redirectTo('MH.html')">Miami Heat</button>
-        <P><button onclick="redirectTo('CC.html')">Cleveland Cavaliers</button>
-        <P><button onclick="redirectTo('LAL.html')">Los Angeles Lakers</button>
+            <!-- LeBron image--> 
+            <img src="LeBronT1.jpg" class="Lakers">
 
-
-            <img src="LeBronT1.jpg" style="width:450px;height:450px;" class=">Lakers">
-
-            <script>
+           <!--function that allows the redirects-->
+           <script>
                 function redirectTo(page) {
                     window.location.href = page;
                 }
