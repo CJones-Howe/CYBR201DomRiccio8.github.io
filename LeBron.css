@@ -53,18 +53,22 @@ body{
   width: 50%;
  }
   
- .bot-nav{
-      justify-content: space-between;
-      align-items: center;
-  }
-  .nav-links{
-      list-style: none;
+ .bot-nav {
       display: flex;
+      justify-content: center; /* Centers the nav horizontally */
+      margin-top: 20px;
   }
-  .nav-links li{
+  
+  .nav-links {
+      list-style: none;
+      display: flex; /* Keeps items in a row */
+      gap: 20px; /* Adds space between items */
+      padding: 0;
+      margin: 0;
+  }
+  
+  .nav-links li {
       text-align: center;
-      margin: 0 15px;
-      display: row;
   }
   @media (max-width: 1080px){
       .nav-links{
