@@ -1,5 +1,13 @@
-body {
+.LAL-Page{
       background: linear-gradient(160deg, #6a0dad, #ffcc00);
+      height: 100vh;
+}
+.CC-Page{
+      background: linear-gradient(160deg,  #860038, #000000);
+      height: 100vh;
+}
+.OCC-Page{
+      background: linear-gradient(160deg, #041E42 , #FDBB30);
       height: 100vh;
 }
 body{
@@ -13,9 +21,23 @@ body{
       #p2,#p4,#p6 {
             color:#552583
       }
-        
+      #ccp1,#ccp3,#ccp5{
+                  color: #860038
+            }
+      #ccp2,#ccp4,#ccp6{
+                  color: white
+            }
+      #OCCp1,#OCCp3,#OCCp5{
+            color:#FDBB30
+      }
+      #OCCp2,#OCCp4,#OCCp6{
+            color:#041E42
+      }
+      .CC-Page p{ 
+             color:white
+      }
       p{
-            color:white
+            color:black
       }
         
       p{
@@ -26,10 +48,15 @@ body{
             font-family: 'Times New Roman', Times, serif 
       }
         
-      h1{
+      .LALh1{
             color:#552583
       }
-        
+      .CCh1{
+            color:white
+      }
+      .OCCh1{
+            color:#041E42
+      }
       h1{
             font-size:300%
       }
