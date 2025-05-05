@@ -46,7 +46,16 @@ body{
             background: linear-gradient(160deg, white , #98002E);
       height: 100vh;
 }
-
+      #stp1,#stp3,#stp3{
+            color: silver
+      }
+      #stp2,#stp4,#stp6{
+            color:green
+      }
+      .ST-Page{
+            background: linear-gradient(160deg, silver , green);
+      height: 100vh;
+      }
       p{
             color:black
       }
