@@ -36,6 +36,17 @@ body{
       .CC-Page p{ 
              color:white
       }
+      #mhp1,#mhp3,#mhp5{
+            color: white
+      }
+      #mhp2,#mhp4,#mhp6{
+            color: #98002E
+      }
+      .MH-Page{
+            background: linear-gradient(160deg, white , #98002E);
+      height: 100vh;
+}
+
       p{
             color:black
       }
